@@ -1,0 +1,7 @@
+Welcome to Loginsystem
+
+Hi {{ user.username|safe }}, please verify your email by clicking on the following url:
+
+    {{  url  }}
+
+This link will expire in {{ url_expiry_hours }} hours.
